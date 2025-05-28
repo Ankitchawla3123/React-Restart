@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.yo{
+
+    border: 2px solid black;
+    width: 5rem;
+    height: 2.75rem;
+    
+}
