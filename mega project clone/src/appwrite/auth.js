@@ -44,7 +44,8 @@ export class Authservice {
         try {
             return await this.account.get(); // this doesn't handle empty account and use if else
         } catch (error) {
-            throw error; // or console log the rror mostly when service not connected
+            console.log(error);
+            
         }
         return null // if issue in try catch or failed to get acc then return null / account not connected yet
     }
@@ -66,4 +67,4 @@ export class Authservice {
 
 const authService= new Authservice();
 
-export default new authService;  // object will have its methods 
+export default authService;  // object will have its methods 

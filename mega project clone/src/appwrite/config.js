@@ -112,7 +112,7 @@ export class Service {
   }
 
   async getfilepreview(fileid){
-    return  this.bucket.getFilePreview(conf.appwritebucketid, fileid)  // not a promise
+    return  this.bucket.getFilePreview(conf.appwritebucketid, fileid)  // not a promise 
   }
 
 }
