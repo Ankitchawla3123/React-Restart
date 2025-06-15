@@ -26,3 +26,5 @@ function Protected({children, authentication= true}) {
 }
 
 export default Protected
+
+// https://www.dhiwise.com/blog/design-converter/guide-to-react-router-protected-routes-for-safe-routing#implementing-protected-routes-in-react

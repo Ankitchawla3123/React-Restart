@@ -14,7 +14,7 @@ function Login() {
   const login = async (data) => {
     seterror("");
     try {
-      const session = await authService.login(data.email, data.password);
+      const session = await authService.login(data);
       if (session) {
         const userdata = await authService.getCurrentuser();
         if (userdata) {
